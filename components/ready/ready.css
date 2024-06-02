@@ -1,0 +1,31 @@
+.back {
+  background-image: url("https://res.cloudinary.com/dq7brjjnz/image/upload/v1717252418/15807d7d-73d6-4e6a-955b-bea0ddc35d23.png");
+  height: 70vh;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.ready{
+    overflow: hidden;
+}
+
+.ready h1{
+    font-family: cb;
+    text-transform: capitalize;
+    color: white;
+}
+.ready p{
+    font-family: cr;
+    text-transform: capitalize;
+    color: white;
+}
+
+.ready{
+    position: relative;
+}
+
+.sv{
+    z-index: -1;
+    position: absolute;
+    top: -10%;
+}

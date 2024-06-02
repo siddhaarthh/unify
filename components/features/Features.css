@@ -1,0 +1,33 @@
+.p-1{
+    margin: 0;
+    padding: 0;
+    font-family: cr;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #FF5555;
+    text-align: left;
+}
+.features{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features h1{
+text-align: left;
+    font-family: cb;
+    text-transform: capitalize;
+}
+
+.features p{
+    font-family: cm;
+}
+
+.b{
+    position: absolute;
+    z-index: -1;
+    left: 40%;
+    top: -16%;
+}

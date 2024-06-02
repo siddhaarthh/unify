@@ -1,0 +1,25 @@
+@font-face {
+  font-family: cl;
+  src: url(./font/ClashDisplayLight.otf);
+}
+@font-face {
+  font-family: cm;
+  src: url(./font/ClashDisplayMedium.otf);
+}
+@font-face {
+  font-family: cb;
+  src: url(./font/ClashDisplayBold.otf);
+}
+
+@font-face {
+  font-family: cr;
+  src: url(./font/ClashDisplayRegular.otf);
+}
+
+@media (max-width:500px) {
+  *{
+    overflow-x: hidden;
+  }
+  }
+
+ 

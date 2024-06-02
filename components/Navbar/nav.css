@@ -1,0 +1,40 @@
+.navbar {
+  z-index: 9999;
+}
+
+.nav-link {
+  font-family: cm;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff5555;
+}
+.nav-btn {
+  font-family: cl;
+  color: white;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #000000;
+  border-radius: 4px;
+}
+
+.navbar-nav {
+  width: 90%;
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bbb {
+    text-align: center;
+  }
+
+}

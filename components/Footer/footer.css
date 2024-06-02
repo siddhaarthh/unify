@@ -1,0 +1,52 @@
+.footer{
+    margin: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p,h2{
+    font-family: cm;
+    text-transform: capitalize;
+}
+
+.footer input{
+    padding: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+}
+
+::placeholder{
+    font-family: cr;
+}
+
+.footer button{
+    font-family: cr;
+    padding: 30px;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+
+}
+
+.footer p:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:500px) {
+    .footer{
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .footer button{
+        padding: none !important;
+        font-size: 10px;
+    }
+    }

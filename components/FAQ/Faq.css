@@ -1,0 +1,23 @@
+.faq h2{
+font-family: cb;
+}
+
+.faq h3{
+    font-size: 28px;
+    font-family: cm;
+    text-transform: capitalize;
+}
+
+.faq p{
+    font-family: cr;
+}
+
+.c{
+    padding: 60px;
+}
+
+.red{
+    color: white;
+    background-color: #FF5555;
+    border-radius: 8px;
+}
